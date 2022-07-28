@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;700&family=Inter:wght@500&family=Roboto:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+.sidebar {
+  background-color: rgb(116, 159, 176);
+  /* width: 434px; */
+  font-family: "Edu NSW ACT Foundation";
+  height: 100vh;
+  transition: transform 0.2s ease-in;
+  position: absolute;
+}
+
+.sidebar nav {
+  padding: 45px;
+}
+
+.sidebar nav li {
+  list-style: none;
+  font-size: 30px;
+  padding: 33px 0;
+}
+
+.sidebar nav li a {
+  text-decoration: none;
+  color: rgb(68, 58, 58);
+}
+
+.main {
+  /* background-color: rgb(169, 103, 169); */
+  background-image: linear-gradient( to right, #b97e87, #49b9df);
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+}
+
+.infoContainer {
+  /* background-color: rgb(234, 132, 142); */
+  height: 58vh;
+  width: 80vw;
+  margin: 131px auto;
+  display: flex;
+  justify-content: space-around;
+ 
+}
+
+.devInfo {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.hello {
+
+  font-size: 3em;
+}
+
+.name {
+  font-size: 3em;
+  font-family: "Edu NSW ACT Foundation";
+}
+
+.about {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.buttons {
+  font-size: 16px;
+  margin-top: 2.2em;
+}
+
+.btn {
+  padding: 9px 14px;
+  border-radius: 22px;
+  color: aliceblue;
+  background-color: dodgerblue;
+  font-weight: bold;
+  font-size: 1.2em;
+  cursor: pointer;
+  margin: 3px 3px;
+}
+
+.btn-sm{
+    font-size: 13px;
+    padding: 10px 19px;
+    margin: 12px 0;
+}
+
+.btn:hover {
+  background-color: white;
+  color: dodgerblue;
+}
+
+.devPic img {
+  /* width: 301px; */
+  height: 58vh;
+}
+
+.moreabout {
+  font-size: 2em;
+  font-family: "Edu NSW ACT Foundation";
+  margin-top: 23px;
+}
+
+.contactform {
+  padding: 0 34px;
+  /* padding-top: 144px; */
+  font-family: "Josefin Sans", sans-serif;
+  margin: 0 88px;
+}
+
+.contactform h1 {
+  font-family: "Edu NSW ACT Foundation";
+  /* text-align: center; */
+  /* padding: 12px 0; */
+}
+
+#isclient{
+  margin-right: 813px;
+  margin-bottom: 12px;
+}
+.contactform form div {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  margin: -3px;
+}
+
+.contactform form div input{
+  /* width: 26vw; */
+  border-radius: 5px;
+  margin: 6px 0 0 0;
+  padding: 3px;
+}
+
+.contactform form {
+  margin: 0 40px;
+  
+}
+
+
+#emailHelp{
+    font-size: 15px;
+    color: rgb(107, 107, 186);
+    margin: 0 5px;
+}
+
+#form check{
+    flex-direction: row;
+
+}
+.form check input{
+  width: 24px;
+margin: 3px 0;
+
+}
+
+.project{
+    font-family: "Edu NSW ACT Foundation";
+    color: rgb(58, 55, 50);
+    margin: 0 88px;
+    
+}
+
+.project h1{
+text-align: center;
+padding: 15px;
+text-decoration: underline;
+}
+
+.project h2{
+padding: 15px;
+}
+
+.project h3{
+padding: 15px;
+padding-top: 0;
+}
+.project h3 a{
+text-decoration: none;
+color: rgb(58, 55, 50);;
+}
+
+h1{
+  font-family: "Edu NSW ACT Foundation";
+  margin: 23px;
+}
+
+p{
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.intro{
+  margin: 20px 88px;
+}
+
+.intro h2{
+  font-family: "Josefin Sans", sans-serif;
+  margin:  17px;
+  font-size: 32px;
+}
+
+.intro p{
+  font-family: "Edu NSW ACT Foundation";
+  margin:  12px;
+  font-size: 22px;
+}
+
+.skill{
+  font-size: 24px;
+}
+
+
+.sidebarGo{
+  transform: translate(-443px , 0px);
+  position: absolute;
+}
+
+.hamburger{
+  position: absolute;
+cursor: pointer;
+top: 10px;
+left: 10px;
+
+}
+
+.ham{
+  margin-top: 9px;
+  margin-left: 10px;
+ 
+}
+
+.cross{
+  margin-left: 170px;
+  margin-top: 9px;
+}
+
+@media (min-width: 1064px) and (max-width: 1864px){
+  .infoContainer{
+  padding-left: 195px;
+}
+
+.project{
+  padding-left: 195px;
+}
+
+.contactform{
+  padding-left: 195px;
+
+}
+
+.intro{
+  padding-left: 195px;
+}
+}
+
+
+@media (max-width: 1500px) {
+ 
+
+  .buttons{
+    font-size: 7px;
+  }
+  .devInfo{
+    font-size: 10px;
+  }
+  .devPic{
+    display: none;
+  }
+
+  .intro , .project , .contactform{
+    margin: 50px 8px;
+  }
+}

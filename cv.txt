@@ -1,0 +1,69 @@
+                                             My CV
+
+
+Yash Gupta
+yg121377@gmail.com
+
+Agra, Mathura
+
+
+EDUCATION 
+B.Tech, Computer Science & Engineering
+GLA University
+2020 - 2024
+ 
+Senior Secondary (XII)
+CBSE board
+Year of completion: 2020
+ 
+Secondary (X)
+CBSE board
+Year of completion: 2018
+
+
+TRAININGS/ COURSES
+Full Stack
+Yhills@Internship Program, Online
+May 2022 - Present
+Currently i joined a Full Stack training on YHills , in this we learn Frontend , Backend
+With proper knowledge and Projects..
+
+
+ACADEMICS/ PERSONAL PROJECTS
+ 
+Digital Clock
+Dec 2021 - Dec 2021
+Add academic/ personal project
+
+
+SKILLS-------
+
+Java
+Intermediate
+ 
+HTML
+Beginner
+ 
+CSS
+Beginner
+ 
+Python
+Beginner
+ 
+ReactJS
+Beginner
+ 
+Bootstrap
+Intermediate
+ 
+JavaScript
+Beginner
+
+
+
+PORTFOLIO/ WORK SAMPLES
+GitHub profile
+https://github.com/1Y325
+Add portfolio/ work sample
+ACCOMPLISHMENTS/ ADDITIONAL DETAILS
+Add accomplishment/ additional detail
